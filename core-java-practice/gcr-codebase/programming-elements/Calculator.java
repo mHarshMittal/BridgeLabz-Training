@@ -1,16 +1,15 @@
 import java.util.Scanner;
-public class Calculator
-{
+public class Calculator{
  public static void main(String[] args){
  Scanner sc = new Scanner(System.in);
+ System.out.println("Enter number1: ");
  int a = sc.nextInt();
+ System.out.println("Enter number2: ");
  int b = sc.nextInt();
-
-  
-   int division = a/b;
-   int addition = a+b;
-   int subtraction = a-b;
-   int multiplication = a*b;
-   System.out.println("The addition is "+addition+" , subtraction  is "+subtraction+" , multiplication is  "+multiplication+" and division is "+division);
+   int add = a+b;
+   int sub = a-b;
+   int mul = a*b;
+   int div = a/b;
+   System.out.println("The addition, subtraction, multiplication, and division value of 2 numbers "+a+" and "+b+" is "+add+","+sub+","+mul+", and "+div);
 }
 }
