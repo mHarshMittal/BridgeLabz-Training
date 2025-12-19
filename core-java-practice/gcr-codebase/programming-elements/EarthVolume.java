@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Earth_Volume{
+public class EarthVolume{
 
 
  public static void main(String[] args){

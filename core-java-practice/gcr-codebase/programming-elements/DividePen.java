@@ -1,5 +1,5 @@
-import java.util.Scanner;
-public class Divide_Pen{
+//import java.util.Scanner;
+public class DividePen{
  public static void main(String[] args){
    int pens = 14/3;
    int rem = 14%3;

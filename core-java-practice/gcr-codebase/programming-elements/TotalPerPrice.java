@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Total_pur_price{
+public class TotalPerPrice{
  public static void main(String[] args){
  Scanner sc = new Scanner(System.in);
  System.out.println("Enter unit price: ");
