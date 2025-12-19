@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class YardMiles {
+public class YardMiles{
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter distance in feet: ");
