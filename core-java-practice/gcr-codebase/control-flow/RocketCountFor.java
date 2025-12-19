@@ -16,5 +16,3 @@ public class RocketCountFor {
         sc.close();
     }
 }
-
-
