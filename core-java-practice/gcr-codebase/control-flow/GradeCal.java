@@ -18,11 +18,11 @@ public class GradeCal {
         double total = physics + chemistry + maths;
         double percentage = total / 3.0;
 
-        // Create few Variables to store the result 
+        // Create few Variables to store the result
         String grade = "";
         String remarks = "";
 
-        // Now Assign grade and Remarks as per the marks 
+        // Now Assign grade and Remarks as per the marks
         if (percentage >= 80) {
             grade = "A";
             remarks = "(Level 4, above agency-normalized standards)";
@@ -43,7 +43,6 @@ public class GradeCal {
             remarks = "(Remedial standards)";
         }
 
-       
         System.out.println("\n--- Results ---");
         System.out.printf("Average Mark: %.2f%%\n", percentage);
         System.out.println("Grade: " + grade);
