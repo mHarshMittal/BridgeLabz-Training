@@ -14,3 +14,7 @@ Focus Areas: Variable initialization, data types, and arithmetic operations.
 Dec 18–19, 2025: Conditional Logic & Decision Making
 Implementation: Engineered logic-based solutions using Java control structures to solve complex problem statements.
 Focus Areas: Mastery of if-else blocks, nested conditionals, and logical operators to manage program flow.
+
+dec 20, 2025: Solved Few Scenario Based Question Shared in Google Classroom Based 
+.  BMI Calculator Problem 
+.  Coffee Counter Problem  
