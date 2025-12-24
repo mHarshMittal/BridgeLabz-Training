@@ -4,7 +4,7 @@ public class MinMaxOfThree {
     public static int[] findSmallestAndLargest(int a, int b, int c) {
         int min = Math.min(a, Math.min(b, c));
         int max = Math.max(a, Math.max(b, c));
-        return new int[]{min, max}; //
+        return new int[]{min, max}; 
 
     }
 
