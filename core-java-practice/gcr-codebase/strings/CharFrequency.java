@@ -22,5 +22,7 @@ class CharFrequency {
         Scanner sc = new Scanner(System.in);
         String[][] a = freq(sc.nextLine());
         for (String[] x : a) System.out.println(x[0] + " " + x[1]);
+        sc.close();
     }
+    
 }

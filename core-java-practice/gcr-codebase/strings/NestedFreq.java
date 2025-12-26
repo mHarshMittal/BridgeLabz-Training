@@ -20,5 +20,6 @@ class NestedFreq {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         for (String x : freq(sc.nextLine())) System.out.println(x);
+        sc.close();
     }
 }

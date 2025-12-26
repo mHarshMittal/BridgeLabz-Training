@@ -12,5 +12,7 @@ class FirstNonRepeat {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println(find(sc.nextLine()));
+        sc.close();
     }
+    
 }

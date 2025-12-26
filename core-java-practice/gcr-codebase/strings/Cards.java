@@ -39,5 +39,6 @@ class Cards {
                 System.out.println(a[i][j]);
             System.out.println();
         }
+        sc.close();
     }
 }
