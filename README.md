@@ -1,5 +1,29 @@
 BridgeLabz Fellowship | Daily Progress Journal
 A chronological record of technical milestones and task completions during the BridgeLabz training program.
+# Directory Structure
+```
+BridgeLabz-Training/
+|
++-- core-java-practice/
+|   |
+|   +-- gcr-codebase/
+|   |   |
+|   |   +-- programming-elements/
+|   |   |
+|   |   +-- control-flow/
+|   |   |
+|   |   +-- arrays/
+|   |   |
+|   |   +-- extras/
+|   |   |
+|   |   +-- strings/
+|   |
+|   +-- leet-code-codebase/
+|   |
+|   +-- scenario-based/
+|
++-- README.md
+```
 
 Dec 16, 2025: Program Orientation & Infrastructure Setup
 Onboarding: Participated in the program kickoff and reviewed the comprehensive training roadmap and learning objectives.
