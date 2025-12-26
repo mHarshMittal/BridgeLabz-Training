@@ -18,5 +18,7 @@ class BusRoute {
         }
 
         System.out.println("Total distance travelled: " + total);
+
+        sc.close();
     }
 }

@@ -13,11 +13,12 @@ class ElectionBooth {
 
             if (age >= 18) {
                 System.out.print("Vote (1/2/3): ");
-                int v = sc.nextInt();
+                //int v = sc.nextInt();
                 System.out.println("Vote recorded");
             } else {
                 System.out.println("Not eligible");
             }
         }
+        sc.close();
     }
 }

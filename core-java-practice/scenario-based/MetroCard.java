@@ -22,5 +22,6 @@ class MetroCard {
                 break;
             }
         }
+        sc.close();
     }
 }

@@ -19,5 +19,6 @@ class LuckyDraw {
             else
                 System.out.println("No Gift");
         }
+        sc.close();
     }
 }
