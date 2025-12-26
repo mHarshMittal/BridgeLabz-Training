@@ -9,5 +9,6 @@ public class EarthVolume{
    double mile = 6378 * 0.6213;
    double milevol = (4/3) * 3.14 * Math.pow(mile,3);
    System.out.print("The volume of earth in cubic kilometers is "+volume+" and cubic miles is "+milevol);
+   sc.close();
 }
 }

@@ -16,5 +16,6 @@ public class PlayerHeights {
 
         double avg = sum / 11;
         System.out.printf("Average height: %.2f, Min height: %.2f, Max height: %.2f%n", avg, min, max);
+        sc.close();
     }
 }

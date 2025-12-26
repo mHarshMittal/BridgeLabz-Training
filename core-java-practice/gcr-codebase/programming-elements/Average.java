@@ -10,5 +10,7 @@ public class Average{
    int num3 = sc.nextInt();
    double Ans = (num1+num2+num3)/3;
    System.out.print(Ans);
+
+   sc.close();
 }
 }

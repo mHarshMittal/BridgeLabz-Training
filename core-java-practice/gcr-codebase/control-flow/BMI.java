@@ -26,6 +26,7 @@ public class BMI {
 
         System.out.println("BMI = " + bmi);
         System.out.println("Status = " + status);
+        sc.close();
 
     }
 }

@@ -22,6 +22,7 @@ class CalendarApp {
         for (int i = 1; i <= d[m-1]; i++) {
             System.out.printf("%3d", i);
             if ((i + fd) % 7 == 0) System.out.println();
+            sc.close();
         }
     }
 }

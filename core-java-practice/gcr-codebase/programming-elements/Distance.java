@@ -6,5 +6,7 @@ public class Distance {
     int dist = sc.nextInt();
     double miles = dist * 0.621371;
     System.out.print(miles);
+    sc.close();
+    
   }
 }

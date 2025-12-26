@@ -10,5 +10,6 @@ public class SI{
    int R = sc.nextInt();
    double SI = (P*T*R)/100;
    System.out.print("RS."+SI);
+   sc.close();
 }
 }

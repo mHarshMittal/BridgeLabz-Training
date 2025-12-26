@@ -7,5 +7,6 @@ public class RectPerimeter {
     int width = sc.nextInt();
     int perimeter = 2 * length * width;
     System.out.print(perimeter);
+    sc.close();
   }
 }

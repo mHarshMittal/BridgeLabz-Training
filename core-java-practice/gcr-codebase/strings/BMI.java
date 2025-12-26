@@ -29,5 +29,6 @@ class BMI {
             d[i][1] = sc.nextDouble();
         }
         display(calculate(d));
+        sc.close();
     }
 }

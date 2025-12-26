@@ -8,5 +8,6 @@ public class InputPrice{
  int quant = sc.nextInt();
    int net = quant*unit;
    System.out.println(" The total purchase price is INR "+net+" if the quantity "+quant+" and the unit price is INR "+unit);
+   sc.close();
 }
 }

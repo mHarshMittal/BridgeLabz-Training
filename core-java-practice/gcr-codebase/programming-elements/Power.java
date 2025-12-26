@@ -6,5 +6,6 @@ public class Power{
    double expn = sc.nextInt();
    double result = Math.pow(base, expn);
    System.out.print(result);
+   sc.close();
 }
 }

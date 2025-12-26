@@ -13,5 +13,6 @@ public class NumNature {
         int num = sc.nextInt();
         int result = checkSign(num);
         System.out.println("Result: " + result);
+        sc.close();
     }
 }

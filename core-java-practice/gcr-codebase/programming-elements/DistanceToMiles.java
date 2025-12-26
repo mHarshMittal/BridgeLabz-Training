@@ -5,5 +5,6 @@ public class DistanceToMiles{
    int dist = sc.nextInt();
    double miles = dist * 0.621371;
    System.out.print("The total miles is "+miles+" mile for the given "+dist+" km");
+   sc.close();
 }
 }

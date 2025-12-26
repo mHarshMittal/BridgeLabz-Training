@@ -8,5 +8,6 @@ public class YardMiles{
     double yard = dist / 3;
     double mile = yard / 1760;
     System.out.println("The distance in yards is " + yard + " while the distance in miles is " + mile);
+    sc.close();
   }
 }

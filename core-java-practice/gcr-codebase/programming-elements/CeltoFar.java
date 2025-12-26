@@ -5,5 +5,6 @@ public static void main(String[] args){
    int cel = sc.nextInt();
    int far = (cel*9/5)+32;
    System.out.print(far);
+   sc.close();
 }
 }

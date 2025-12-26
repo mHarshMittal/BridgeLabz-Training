@@ -13,5 +13,6 @@ public class WindChillCalc {
         double windSpeed = sc.nextDouble();
         double windChill = calWindChill(temp, windSpeed);
         System.out.printf("Wind Chill Temperature: %.2f°F%n", windChill);
+        sc.close();
     }
 }

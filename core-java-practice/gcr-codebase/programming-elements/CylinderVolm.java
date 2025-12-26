@@ -6,5 +6,6 @@ public class CylinderVolm{
    int height = sc.nextInt();
    double volm = (3.14) * rad * rad * height;
    System.out.print(volm);
+   sc.close();
 }
 }

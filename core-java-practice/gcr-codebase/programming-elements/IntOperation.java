@@ -10,5 +10,7 @@ public class IntOperation{
    int third = c+a/b;
    int fourth = a%b+c;
    System.out.println("The results of Int Operations are "+first+","+second+","+third+" and "+fourth);
+   sc.close();
+   
 }
 }

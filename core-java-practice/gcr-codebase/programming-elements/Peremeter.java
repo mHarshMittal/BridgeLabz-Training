@@ -7,5 +7,7 @@ public class Peremeter {
     int perim = sc.nextInt();
     double side = perim / 4;
     System.out.println("The length of the side is " + side + " whose perimeter is " + perim);
+    sc.close();
+    
   }
 }

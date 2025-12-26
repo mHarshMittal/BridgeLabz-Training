@@ -6,5 +6,6 @@ public class CircleArea {
     int rad = sc.nextInt();
     double area = (3.14) * rad * rad;
     System.out.print(area);
+    sc.close();
   }
 }

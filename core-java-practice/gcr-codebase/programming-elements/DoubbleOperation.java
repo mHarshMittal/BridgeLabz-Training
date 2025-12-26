@@ -12,5 +12,6 @@ public class DoubbleOperation {
     double third = c + a / b;
     double fourth = a % b + c;
     System.out.println("The results of Double Operations are " + first + "," + second + "," + third + " and " + fourth);
+    sc.close();
   }
 }

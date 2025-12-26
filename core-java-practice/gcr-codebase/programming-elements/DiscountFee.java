@@ -9,5 +9,6 @@ public class DiscountFee{
    double disct = (fee*disc)/100;
    double dfee = fee-disct;
    System.out.print("The discount amount is INR "+disct+" and final discounted fee is INR "+dfee);
+   sc.close();
 }
 }

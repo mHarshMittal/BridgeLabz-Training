@@ -9,5 +9,6 @@ public class AreaOfTri{
    double area = (0.5) * base * height;
    double area_inch= area / (2.54 * 2.54);
    System.out.println("The Area of the triangle in sq in is "+area_inch+" and sq cm is "+area);
+   sc.close();
 }
 }
