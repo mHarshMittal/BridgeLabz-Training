@@ -56,3 +56,8 @@ Dec 25, 2025: Merry Christmas ( Offical Leave )
 
 Dec 26, 2025: Solved Few more questions (Extra) on string and mathords and Completed reading material of Common Built-in Function and Java Date and Time functon 
 
+Dec 27- 28, 2025: Week-End
+
+Dec 29, 2025: Solved Scenario Based Questions and Hand-in The given assignment and leetcode problems in particular folder and branches 
+
+
