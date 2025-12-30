@@ -8,13 +8,11 @@
     Solving using Switch Case Statement
     Calculate Monthly Employee Wage Assume 20 Working Day per Month
     Calculate Wages till a condition of total working hours or days is reached for a month - Assume 100 hours and 20 days
-
-solve this in java using simple approach
 */
 
 public class EmpWages {
 
-    // Constants
+    // Constants 
     static final int WAGE_PER_HOUR = 20;
     static final int FULL_DAY_HOURS = 8; 
     static final int PART_TIME_HOURS = 4;   // as given in ques but let me take part time as 4 hrs onlyc
