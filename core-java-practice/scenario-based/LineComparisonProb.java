@@ -29,8 +29,6 @@ the end points, So that I know
 one line is equal, greater or
 less than the other line. - Using Java compareTo method to compare 2 Lengths is
 preferable.
-
-Solve using java in simple way as a begineer
 */
 
 import java.util.*;
