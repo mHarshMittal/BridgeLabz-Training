@@ -1,28 +1,34 @@
 BridgeLabz Fellowship | Daily Progress Journal
 A chronological record of technical milestones and task completions during the BridgeLabz training program.
 # Directory Structure
+
 ```
 BridgeLabz-Training/
-|
-+-- core-java-practice/
-|   |
-|   +-- gcr-codebase/
-|   |   |
-|   |   +-- programming-elements/
-|   |   |
-|   |   +-- control-flow/
-|   |   |
-|   |   +-- arrays/
-|   |   |
-|   |   +-- extras/
-|   |   |
-|   |   +-- strings/
-|   |
-|   +-- leet-code-codebase/
-|   |
-|   +-- scenario-based/
-|
-+-- README.md
+│
+├── core-java-practice/            (Branch & Folder Name)
+│   │
+│   ├── gcr-codebase/
+│   │   ├── programming-elements/
+│   │   └── control-flow/
+│   │
+│   ├── leet-code-codebase/
+│   │
+│   └── scenario-based/
+│
+├── oops-practice/                 (Branch & Folder Name)
+│   │
+│   ├── gcr-codebase/
+│   │   ├── inheritance/
+│   │   ├── encapsulation/
+│   │   └── polymorphism/
+│   │
+│   ├── scenario-based/
+│   │
+│   └── leet-code-codebase/
+│
+├── reviews/                       (Branch Name)
+
+
 ```
 
 Dec 16, 2025: Program Orientation & Infrastructure Setup
@@ -61,5 +67,14 @@ Dec 27- 28, 2025: Week-End ( Saturday Sunday )
 Dec 29, 2025: Solved Scenario Based Questions "Employee Wages Computation" and Hand-in The given assignment and leetcode problems in particular folder and branches 
 
 Dec 30, 2025: Solved Scenario Based problem "Line Comparision" &  "Snake and ladder" as well as started with the Java Class and Object problems 
+
+# Started with Oops Concepts
+
+Dec 31, 2025: Solved Java Constructors, Instance vs. Class Variables, Access Modifiers Concepts Assignments and revised the concepts.
+
+# Jan 1, 2026:
+
+
+Started with this, static, final key words and instanceof operator Content 
 
 
