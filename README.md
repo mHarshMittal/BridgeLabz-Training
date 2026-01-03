@@ -77,4 +77,8 @@ Dec 31, 2025: Solved Java Constructors, Instance vs. Class Variables, Access Mod
 
 Started with this, static, final key words and instanceof operator Content 
 
+2 jan, 2026: Started with the Oops Design diagrams 
+  (Sequence, class & object diagrams)
+
+3 Jan, 2026: Submission Of inheritance Assignments
 
