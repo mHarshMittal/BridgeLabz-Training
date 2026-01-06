@@ -1,4 +1,3 @@
-package oops_practice.gcr_codebase.constructors_and_instance_variables;
 class Course{
 	private String courseName;
 	private int duration;

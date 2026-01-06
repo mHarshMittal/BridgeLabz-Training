@@ -6,7 +6,6 @@ public class StudentScores {
 
         Scanner sc = new Scanner(System.in);
 
-        // Enter number of students
         System.out.print("Enter number of students: ");
         int n = sc.nextInt();
 
@@ -15,11 +14,12 @@ public class StudentScores {
             System.out.println("Invalid number of students");
             return;
         }
+        
 
-        int[] a = new int[n];          // array to store scores
-        int sum = 0;                  // total of scores
-        int max = Integer.MIN_VALUE;  // highest score
-        int min = Integer.MAX_VALUE;  // lowest score
+        int[] a = new int[n];         
+        int sum = 0;                  
+        int max = Integer.MIN_VALUE;  
+        int min = Integer.MAX_VALUE;  
 
         for (int i = 0; i < n; i++) {
 
@@ -39,9 +39,9 @@ public class StudentScores {
                 return;
             }
 
-            a[i] = x;     // store score
-            sum += x;     // add to total
-
+            a[i] = x;     
+            sum += x;     
+            
             // update highest and lowest
             if (x > max) max = x;
             if (x < min) min = x;
