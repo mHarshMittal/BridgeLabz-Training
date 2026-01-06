@@ -85,5 +85,12 @@ Started with this, static, final key words and instanceof operator Content
 4 jan, 2026: SUNDAY
 
 5 jan, 2026: 06 Submission of Encapsulation, Polymorphism, Interface and Abstract Class solutions 
+             Solved Two Leetcode Questions in the leetcode Folder 
+             
+             Solved Few Scenario Based Questions - Student Score Analyzer
+             
+                                                  - Invoice generator for Freelencer
+                                                  
+             
 
 
