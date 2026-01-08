@@ -120,4 +120,33 @@ public class StudentRecordSLL {
             student.studentGrade = newGrade;
         }
     }
+
+    // created main method
+    public static void main(String[] args) {
+        StudentRecordSLL studentList = new StudentRecordSLL();
+
+        studentList.addStudentAtEnd(1, "harsh ", 20, 'A');
+        studentList.addStudentAtEnd(2, "Agraj", 21, 'B');
+        studentList.addStudentAtBeginning(0, "Mukul", 19, 'C');
+        studentList.addStudentAtPosition(3, "Sahil", 22, 'D', 2); // 2 is the position to insert 
+
+        System.out.println("All Student Records:");
+        studentList.displayAllStudents();
+
+        System.out.println("\nSearching for Roll Number 2:");
+        StudentRecord student = studentList.SearchStudentByRollNumber(2);
+        if (student != null) {
+            System.out.println("Found: " + student.studentName);
+        } else {
+            System.out.println("Student not found.");
+        }
+
+        System.out.println("\nUpdating Grade for Roll Number 1 to 'O':");
+        studentList.updateStudentGrade(1, 'O');
+        studentList.displayAllStudents();
+
+        System.out.println("\nDeleting Roll Number 0:");
+        studentList.deleteStudentbyRollNumber(0);
+        studentList.displayAllStudents();
+    }
 }
