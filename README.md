@@ -86,11 +86,23 @@ Started with this, static, final key words and instanceof operator Content
 
 5 jan, 2026: 06 Submission of Encapsulation, Polymorphism, Interface and Abstract Class solutions 
              Solved Two Leetcode Questions in the leetcode Folder 
-             
              Solved Few Scenario Based Questions - Student Score Analyzer
-             
-                                                  - Invoice generator for Freelencer
+                                                 - Invoice generator for Freelencer
+
+                                                 
                                                   
-             
+6 Jan, 2025: Submission Of Leetcode and scenaario based question 
+
+7 jan, 2025: Data Structure introduction and Linked List Concepts
+             Approach towards Story Based Problem (Scenario)
+
+8 jan, 2025: Submission of Data Structure - LinkedList Solutions 
+
+9 Jan, 2025: Solved Scenario Based Questions and Learned Concepts of Stack, Queue, HashMap and Hashing Function
+
+
+
+
+
 
 
