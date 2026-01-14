@@ -91,16 +91,24 @@ Started with this, static, final key words and instanceof operator Content
 
                                                  
                                                   
-6 Jan, 2025: Submission Of Leetcode and scenaario based question 
+6 Jan, 2026: Submission Of Leetcode and scenaario based question 
 
-7 jan, 2025: Data Structure introduction and Linked List Concepts
+7 jan, 2026: Data Structure introduction and Linked List Concepts
              Approach towards Story Based Problem (Scenario)
 
-8 jan, 2025: Submission of Data Structure - LinkedList Solutions 
+8 jan, 2026: Submission of Data Structure - LinkedList Solutions 
 
-9 Jan, 2025: Solved Scenario Based Questions and Learned Concepts of Stack, Queue, HashMap and Hashing Function
+9 Jan, 2026: Solved Scenario Based Questions and Learned Concepts of Stack, Queue, HashMap and Hashing Function
 
+10 Jan, 2026: Saturday (Off)
 
+11 jan, 2026: Sunday (Off)
+
+12 Jan, 2026 Solved Scenario Based Questions and revised the concepts 
+
+13 Jan, 2026: Created a  Branch and learned about the Merge conflicts and learn how to solve the conflict
+
+14 jan, 2026:  Submission of Stack , Queue, HashMap and Hashing Function
 
 
 
