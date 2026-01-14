@@ -1,7 +1,7 @@
 import java.util.Deque;
 import java.util.LinkedList;
 
-class SlidingWindow{
+class SlidingWindowMaximum {
 
     public static void maxInWindows(int[] arr, int k) {
         Deque<Integer> deque = new LinkedList<>();
@@ -28,7 +28,7 @@ class SlidingWindow{
     }
 
     public static void main(String[] args) {
-        int[] arr = {1, 3, -1, -3, 5, 3, 6, 7};
+        int[] arr = { 1, 3, -1, -3, 5, 3, 6, 7 };
         int k = 3;
         maxInWindows(arr, k);
     }
