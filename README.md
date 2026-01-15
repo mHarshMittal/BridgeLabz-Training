@@ -66,6 +66,12 @@ Dec 27- 28, 2025: Week-End ( Saturday Sunday )
 
 Dec 29, 2025: Solved Scenario Based Questions "Employee Wages Computation" and Hand-in The given assignment and leetcode problems in particular folder and branches 
 
+- Sandeep’s Fitness Challenge Tracker
+- Movie Ticket Booking App
+- Rohan’s Library Reminder App
+- Digital Watch Simulation
+- Employee Wage Computation Problem
+
 Dec 30, 2025: Solved Scenario Based problem "Line Comparision" &  "Snake and ladder" as well as started with the Java Class and Object problems 
 
 # Started with Oops Concepts
@@ -74,37 +80,69 @@ Dec 31, 2025: Solved Java Constructors, Instance vs. Class Variables, Access Mod
 
 # Jan 1, 2026:
 
-
 Started with this, static, final key words and instanceof operator Content 
+
+Also solved scenario based problems:
+
+- Sentence Formatter
+- Text Analyzer
 
 2 jan, 2026: Started with the Oops Design diagrams 
   (Sequence, class & object diagrams)
 
+- Temperature Analyzer
+- Test Scores Manager
+- String Reversal
+- Find Duplicates in Array
+
 3 Jan, 2026: Submission Of inheritance Assignments
+  Solved scenario based problems:
+  - Bank Account Manager
+  - Mathematical Operations
 
 4 jan, 2026: SUNDAY
 
 5 jan, 2026: 06 Submission of Encapsulation, Polymorphism, Interface and Abstract Class solutions 
-             Solved Two Leetcode Questions in the leetcode Folder 
-             Solved Few Scenario Based Questions - Student Score Analyzer
-                                                 - Invoice generator for Freelencer
+ 
+   Solved Two Leetcode Questions in the leetcode Folder 
+              Solved Few Scenario Based Questions 
+              - Student Score Analyzer
+              - Invoice generator for Freelencer
 
-                                                 
+                                           
                                                   
 6 Jan, 2026: Submission Of Leetcode and scenaario based question 
+  - Phone Contact Organizer
+  - Online Quiz Platform
+  - Student Report Generator
+  - Library Management System
 
 7 jan, 2026: Data Structure introduction and Linked List Concepts
-             Approach towards Story Based Problem (Scenario)
+
+   Approach towards Story Based Problem (Scenario)
+   Solved scenario-based problems:   
+   
+   - Cab Booking / Ride Management System
+   - Online Banking System
 
 8 jan, 2026: Submission of Data Structure - LinkedList Solutions 
+  - Single Linked List
+  - Double Linked List
+  - Circular Linked List
 
 9 Jan, 2026: Solved Scenario Based Questions and Learned Concepts of Stack, Queue, HashMap and Hashing Function
+  - Hospital Patient Management System
+  - Vehicle Rental Application
+  - Flight Booking System
 
 10 Jan, 2026: Saturday (Off)
 
 11 jan, 2026: Sunday (Off)
 
 12 Jan, 2026 Solved Scenario Based Questions and revised the concepts 
+  - Online Banking System
+  - E-Commerce Order Management System
+  - Student Course Registration System
 
 13 Jan, 2026: Created a  Branch and learned about the Merge conflicts and learn how to solve the conflict
 
