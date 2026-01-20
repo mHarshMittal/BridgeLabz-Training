@@ -150,20 +150,20 @@ Also solved scenario based problems:
 
 15 Jan, 2026:
 
-  -Linear Search and Binary Search
+  - Linear Search and Binary Search
   
-  -Address Book Problem
+  - Address Book Problem
   
-  -Concepts: 4-Layer Architecture (Presentation, Service, DAO, Model)
+  - Concepts: 4-Layer Architecture (Presentation, Service, DAO, Model)
 
 
 16 jan, 2026:
 
--Submission of Linear and Binary Search (Edited on 17 Jan)
+- Submission of Linear and Binary Search (Edited on 17 Jan)
 
--Algorithm's Runtime Analysis & Big-O Notation
+- Algorithm's Runtime Analysis & Big-O Notation
 
--Git Practices Documentation (Master Git prgmng Documentation.pdf)
+- Git Practices Documentation (Master Git prgmng Documentation.pdf)
 
 
 17 Jan, 2026:
@@ -172,11 +172,11 @@ Submission of Algorithm's Runtime Analysis & Big-O Notation
 
 Scenario-Based Problems:
 
-  -BrowserBuddy – Tab History Manager
+  - BrowserBuddy – Tab History Manager
 
-  -TrafficManager – Roundabout Vehicle Flow
+  - TrafficManager – Roundabout Vehicle Flow
 
-  -BookShelf – Library Organization System
+  - BookShelf – Library Organization System
 
 
 18 Jan, 2026: Sunday
@@ -189,12 +189,12 @@ Java Generics
 
 - Scenario-Based Problems
 
-  -Banking Account Hierarchy
+  - Banking Account Hierarchy
 
-  -Employee Role Polymorphism
+  - Employee Role Polymorphism
 
-  -ParcelTracker – Delivery Chain Management
+  - ParcelTracker – Delivery Chain Management
 
-  -ExamProctor – Online Exam Review System
+  - ExamProctor – Online Exam Review System
 
 
