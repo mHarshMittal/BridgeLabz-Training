@@ -148,7 +148,53 @@ Also solved scenario based problems:
 
 14 jan, 2026:  Submission of Stack , Queue, HashMap and Hashing Function
 
+15 Jan, 2026:
+
+  -Linear Search and Binary Search
+  
+  -Address Book Problem
+  
+  -Concepts: 4-Layer Architecture (Presentation, Service, DAO, Model)
 
 
+16 jan, 2026:
+
+-Submission of Linear and Binary Search (Edited on 17 Jan)
+
+-Algorithm's Runtime Analysis & Big-O Notation
+
+-Git Practices Documentation (Master Git prgmng Documentation.pdf)
+
+
+17 Jan, 2026:
+
+Submission of Algorithm's Runtime Analysis & Big-O Notation
+
+Scenario-Based Problems:
+
+  -BrowserBuddy – Tab History Manager
+
+  -TrafficManager – Roundabout Vehicle Flow
+
+  -BookShelf – Library Organization System
+
+
+18 Jan, 2026: Sunday
+
+19 jan, 2026:
+
+Submission of Scenario Based Problems
+
+Java Generics
+
+- Scenario-Based Problems
+
+  -Banking Account Hierarchy
+
+  -Employee Role Polymorphism
+
+  -ParcelTracker – Delivery Chain Management
+
+  -ExamProctor – Online Exam Review System
 
 
