@@ -205,3 +205,38 @@ Java Generics
   - Collections Reading Material
 
 
+21 Jan, 2026:
+  Submission of Collection
+  
+  Solved Scenario based Problems 
+  
+  - EduResults – Rank Sheet Generator
+    
+  - SmartCheckout – Supermarket Billing Queue
+
+22 Jan, 2026:
+
+Revised few Topics and prepared few Questions 
+
+Solved few Scenario Based Problems  (parcelTracker , SmartCheckout)
+
+Java Streams Reading Material
+
+23 Jan, 2026:
+
+Submission of Java Stream Assignment
+
+Reading Material of Exceptional Handling
+
+24 - 25 Jan, 2026: Weekend (Staurday Sunday)
+
+26 Jan, 2026: Republic Day 
+
+27 jan, 2026:
+
+Reading Material of Regex and Junit was given to understand the concepts.
+
+A new Scenario problem "Lexical Twist" was given to solve.
+
+
+
