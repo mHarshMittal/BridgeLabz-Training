@@ -238,5 +238,34 @@ Reading Material of Regex and Junit was given to understand the concepts.
 
 A new Scenario problem "Lexical Twist" was given to solve.
 
+28 Jan, 2026:
+
+Regex and Junit Submission 
+
+Annotation and Reflection Reading Material
+
+29 Jan, 2026:
+
+Future Logistic Scenario Based 
+
+Submssion of Annotation & Reflection
+
+30 Jan, 2026
+
+Reading Material CSV DataHandling 
+
+31 Jan, 2026 (Saturday)
+
+JSON Data 
+
+1 Feb, 2026 (Sunday)
+
+2 Feb, 2026:
+
+Submission of Lambda Expressions
+
+
+
+
 
 
