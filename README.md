@@ -264,7 +264,14 @@ JSON Data
 
 Submission of Lambda Expressions
 
+3 Feb, 2025:
 
+Stream API and Collectors Reading Matetrial 
+
+4 Feb, 2025:
+
+Submission of Stream API and Collectors Assisment.
+Solved Scenario Based 
 
 
 
