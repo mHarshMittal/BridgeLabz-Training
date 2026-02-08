@@ -1,8 +1,0 @@
-        User
-        ▲
-  ----------------
-  |      |       |
-Student Faculty Librarian
-
-      UserFactory
-      + createUser(role)
