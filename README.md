@@ -273,6 +273,33 @@ Stream API and Collectors Reading Matetrial
 Submission of Stream API and Collectors Assisment.
 Solved Scenario Based 
 
+5 Feb, 2025:
+
+Design Patterns 
+Solid Principles
+Solved Scenario Based Questions
+
+
+6 Feb, 2025:
+Multi Threading
+SonarQube
+Communication Workshop 
+
+7 feb, 2025:
+
+OceanFleet
+Collaborative Group
+Scenario Based Questions
+
+
+8 Feb, 2025: Sunday
+
+9 Feb, 2025:
+JDBC and Test Cases 
+Scenario Based Questions
+
+10 Feb, 2025:
+Practice Mock Test
 
 
 
