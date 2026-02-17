@@ -21,7 +21,8 @@ public class AddressBookMainApp {
             System.out.println("9. View Persons by State");
             System.out.println("10. Count by City");
             System.out.println("11. Count by State");
-            System.out.println("12. Exit");
+            System.out.println("12. Sort Contacts by First Name");
+            System.out.println("13. Exit");
 
             System.out.print("Enter choice: ");
             int choice = sc.nextInt();
@@ -150,6 +151,12 @@ public class AddressBookMainApp {
                     break;
 
                 case 12:
+                    System.out.print("Enter Address Book Name: ");
+                    bookName = sc.nextLine();
+                    service.sortByFirstName(bookName);
+                    break;
+
+                case 13:
                     System.out.println("Exiting... Bye!");
                     System.exit(0);
 

@@ -1,4 +1,10 @@
 package addressBook;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.*;
 public class AddressBookService {
 	
@@ -192,4 +198,275 @@ public class AddressBookService {
 	    int count = (persons == null) ? 0 : persons.size();
 	    System.out.println("Number of persons in state '" + state + "': " + count);
 	}
+	
+	public void sortByFirstName(String bookName) {
+
+	    ContactRepository book = repository.getAddressBook(bookName);
+
+	    if (book == null) {
+	        System.out.println("Address Book not found!");
+	        return;
+	    }
+
+	    List<Contact> contacts = book.getAllContacts();
+
+	    if (contacts.isEmpty()) {
+	        System.out.println("No contacts to sort!");
+	        return;
+	    }
+
+	    contacts.sort(Comparator.comparing(
+	            Contact::getFirstName,
+	            String.CASE_INSENSITIVE_ORDER));
+
+	    System.out.println("---- Sorted Contacts ----");
+
+	    for (Contact c : contacts) {
+	        System.out.println(
+	                c.getFirstName() + " " +
+	                c.getLastName() + " | " +
+	                c.getCity() + " | " +
+	                c.getPhoneNumber()
+	        );
+	    }
+	}
+	
+	public void sortByCity(String bookName) {
+
+	    ContactRepository book = repository.getAddressBook(bookName);
+
+	    if (book == null) {
+	        System.out.println("Address Book not found!");
+	        return;
+	    }
+
+	    List<Contact> contacts = book.getAllContacts();
+
+	    if (contacts.isEmpty()) {
+	        System.out.println("No contacts to sort!");
+	        return;
+	    }
+
+	    contacts.sort(Comparator.comparing(
+	            Contact::getCity,
+	            String.CASE_INSENSITIVE_ORDER));
+
+	    System.out.println("---- Sorted By City ----");
+
+	    contacts.forEach(c ->
+	            System.out.println(c.getFirstName() + " " +
+	                               c.getLastName() + " | " +
+	                               c.getCity() + " | " +
+	                               c.getState() + " | " +
+	                               c.getZip()));
+	}
+
+	public void sortByState(String bookName) {
+
+	    ContactRepository book = repository.getAddressBook(bookName);
+
+	    if (book == null) {
+	        System.out.println("Address Book not found!");
+	        return;
+	    }
+
+	    List<Contact> contacts = book.getAllContacts();
+
+	    if (contacts.isEmpty()) {
+	        System.out.println("No contacts to sort!");
+	        return;
+	    }
+
+	    contacts.sort(Comparator.comparing(
+	            Contact::getState,
+	            String.CASE_INSENSITIVE_ORDER));
+
+	    System.out.println("---- Sorted By State ----");
+
+	    contacts.forEach(c ->
+	            System.out.println(c.getFirstName() + " " +
+	                               c.getLastName() + " | " +
+	                               c.getCity() + " | " +
+	                               c.getState() + " | " +
+	                               c.getZip()));
+	}
+
+	public void sortByZip(String bookName) {
+
+	    ContactRepository book = repository.getAddressBook(bookName);
+
+	    if (book == null) {
+	        System.out.println("Address Book not found!");
+	        return;
+	    }
+
+	    List<Contact> contacts = book.getAllContacts();
+
+	    if (contacts.isEmpty()) {
+	        System.out.println("No contacts to sort!");
+	        return;
+	    }
+
+	    contacts.sort(Comparator.comparingInt(Contact::getZip));
+
+	    System.out.println("---- Sorted By Zip ----");
+
+	    contacts.forEach(c ->
+	            System.out.println(c.getFirstName() + " " +
+	                               c.getLastName() + " | " +
+	                               c.getCity() + " | " +
+	                               c.getState() + " | " +
+	                               c.getZip()));
+	}
+
+	public void writeToFile(String bookName) {
+
+	    ContactRepository book = repository.getAddressBook(bookName);
+
+	    if (book == null) {
+	        System.out.println("Address Book not found!");
+	        return;
+	    }
+
+	    try (BufferedWriter writer = new BufferedWriter(
+	            new FileWriter(bookName + ".txt"))) {
+
+	        for (Contact c : book.getAllContacts()) {
+
+	            writer.write(
+	                    c.getFirstName() + "," +
+	                    c.getLastName() + "," +
+	                    c.getAddress() + "," +
+	                    c.getCity() + "," +
+	                    c.getState() + "," +
+	                    c.getZip() + "," +
+	                    c.getPhoneNumber() + "," +
+	                    c.getMail()
+	            );
+
+	            writer.newLine();
+	        }
+
+	        System.out.println("Address Book saved to file successfully.");
+
+	    } catch (IOException e) {
+	        System.out.println("Error writing to file: " + e.getMessage());
+	    }
+	}
+	
+	public void readFromFile(String bookName) {
+
+	    ContactRepository book = repository.getAddressBook(bookName);
+
+	    if (book == null) {
+	        System.out.println("Address Book not found!");
+	        return;
+	    }
+
+	    try (BufferedReader reader = new BufferedReader(
+	            new FileReader(bookName + ".txt"))) {
+
+	        String line;
+
+	        while ((line = reader.readLine()) != null) {
+
+	            String[] data = line.split(",");
+
+	            Contact contact = new Contact(
+	                    data[0],                     // firstName
+	                    data[1],                     // lastName
+	                    data[2],                     // address
+	                    data[3],                     // city
+	                    data[4],                     // state
+	                    Integer.parseInt(data[5]),   // zip
+	                    Long.parseLong(data[6]),     // phone
+	                    data[7]                      // email
+	            );
+
+	            book.addContact(contact);
+	        }
+
+	        System.out.println("Address Book loaded from file successfully.");
+
+	    } catch (IOException e) {
+	        System.out.println("Error reading file: " + e.getMessage());
+	    }
+	}
+	
+	public void writeToCSV(String bookName) {
+
+	    ContactRepository book = repository.getAddressBook(bookName);
+
+	    if (book == null) {
+	        System.out.println("Address Book not found!");
+	        return;
+	    }
+
+	    try (PrintWriter writer = new PrintWriter(bookName + ".csv")) {
+
+	        // Header
+	        writer.println("FirstName,LastName,Address,City,State,Zip,Phone,Email");
+
+	        for (Contact c : book.getAllContacts()) {
+
+	            writer.println(
+	                    c.getFirstName() + "," +
+	                    c.getLastName() + "," +
+	                    c.getAddress() + "," +
+	                    c.getCity() + "," +
+	                    c.getState() + "," +
+	                    c.getZip() + "," +
+	                    c.getPhoneNumber() + "," +
+	                    c.getMail()
+	            );
+	        }
+
+	        System.out.println("CSV file written successfully!");
+
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	    }
+	}
+	
+	public void readFromCSV(String bookName) {
+
+	    ContactRepository book = repository.getAddressBook(bookName);
+
+	    if (book == null) {
+	        System.out.println("Address Book not found!");
+	        return;
+	    }
+
+	    try (BufferedReader br = new BufferedReader(new FileReader(bookName + ".csv"))) {
+
+	        String line;
+
+	        br.readLine();
+
+	        while ((line = br.readLine()) != null) {
+
+	            String[] data = line.split(",");
+
+	            Contact contact = new Contact(
+	                    data[0],
+	                    data[1],
+	                    data[2],
+	                    data[3],
+	                    data[4],
+	                    Integer.parseInt(data[5]),
+	                    Long.parseLong(data[6]),
+	                    data[7]
+	            );
+
+	            book.addContact(contact);
+	        }
+
+	        System.out.println("CSV loaded successfully!");
+
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	    }
+	}
+
+
 }
