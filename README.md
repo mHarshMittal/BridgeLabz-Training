@@ -264,17 +264,17 @@ JSON Data
 
 Submission of Lambda Expressions
 
-3 Feb, 2025:
+3 Feb, 2026:
 
 Stream API and Collectors Reading Matetrial 
 
-4 Feb, 2025:
+4 Feb, 2026:
 
 Submission of Stream API and Collectors Assisment.
 
 Solved Scenario Based 
 
-5 Feb, 2025:
+5 Feb, 2026:
 
 Design Patterns 
 
@@ -283,7 +283,7 @@ Solid Principles
 Solved Scenario Based Questions
 
 
-6 Feb, 2025:
+6 Feb, 2026:
 
 Multi Threading
 
@@ -291,7 +291,7 @@ SonarQube
 
 Communication Workshop 
 
-7 feb, 2025:
+7 feb, 2026:
 
 OceanFleet
 
@@ -300,9 +300,9 @@ Collaborative Group
 Scenario Based Questions
 
 
-8 Feb, 2025: Sunday
+8 Feb, 2026: Sunday
 
-9 Feb, 2025:
+9 Feb, 2026:
 
 
 JDBC and Test Cases 
@@ -312,6 +312,35 @@ Scenario Based Questions
 10 Feb, 2025:
 
 Practice Mock Test
+
+11 Feb, 2026:
+
+Solved and Submitted Assignment on JDBC
+
+12 Feb, 2026:
+
+Solved Scenaro Based Questions
+
+13 Feb, 2026:
+
+Power Skills session (Communication)
+
+14 Feb, 2026:
+
+Tomcat Servlet Spring Intro 
+
+15 Feb, 2026: Sunday
+
+16 Feb, 2026:
+
+Address Book Problem (Remaining Use cases)
+
+17 Feb, 2026:
+
+Employee Wage Computation Problem
+
+
+
 
 
 
