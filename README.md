@@ -339,6 +339,20 @@ Address Book Problem (Remaining Use cases)
 
 Employee Wage Computation Problem
 
+18 Feb, 2026:
+M1 Mock Exam
+
+19 Feb, 2026:
+
+Quantity Measurements App
+
+20 Feb, 2026:
+
+ Quantity Measurements App
+ Scenario Based Questions
+ Power Session 
+
+ 
 
 
 
