@@ -4,8 +4,7 @@ public class Vessel {
     private double averageSpeed;
     private String vesselType;
 
-    public Vessel() {
-    }
+    
 
     public Vessel(String vesselId, String vesselName, double averageSpeed, String vesselType) {
         this.vesselId = vesselId;
