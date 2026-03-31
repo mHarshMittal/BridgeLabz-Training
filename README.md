@@ -118,3 +118,253 @@ Also solved scenario based problems:
   - Library Management System
 
 7 jan, 2026: Data Structure introduction and Linked List Concepts
+
+   Approach towards Story Based Problem (Scenario)
+   Solved scenario-based problems:   
+   
+   - Cab Booking / Ride Management System
+   - Online Banking System
+
+8 jan, 2026: Submission of Data Structure - LinkedList Solutions 
+  - Single Linked List
+  - Double Linked List
+  - Circular Linked List
+
+9 Jan, 2026: Solved Scenario Based Questions and Learned Concepts of Stack, Queue, HashMap and Hashing Function
+  - Hospital Patient Management System
+  - Vehicle Rental Application
+  - Flight Booking System
+
+10 Jan, 2026: Saturday (Off)
+
+11 jan, 2026: Sunday (Off)
+
+12 Jan, 2026 Solved Scenario Based Questions and revised the concepts 
+  - Online Banking System
+  - E-Commerce Order Management System
+  - Student Course Registration System
+
+13 Jan, 2026: Created a  Branch and learned about the Merge conflicts and learn how to solve the conflict
+
+14 jan, 2026:  Submission of Stack , Queue, HashMap and Hashing Function
+
+15 Jan, 2026:
+
+  - Linear Search and Binary Search
+  
+  - Address Book Problem
+  
+  - Concepts: 4-Layer Architecture (Presentation, Service, DAO, Model)
+
+
+16 jan, 2026:
+
+- Submission of Linear and Binary Search (Edited on 17 Jan)
+
+- Algorithm's Runtime Analysis & Big-O Notation
+
+- Git Practices Documentation (Master Git prgmng Documentation.pdf)
+
+
+17 Jan, 2026:
+
+Submission of Algorithm's Runtime Analysis & Big-O Notation
+
+Scenario-Based Problems:
+
+  - BrowserBuddy – Tab History Manager
+
+  - TrafficManager – Roundabout Vehicle Flow
+
+  - BookShelf – Library Organization System
+
+
+18 Jan, 2026: Sunday
+
+19 jan, 2026:
+
+Submission of Scenario Based Problems
+
+Java Generics
+
+- Scenario-Based Problems
+
+  - Banking Account Hierarchy
+
+  - Employee Role Polymorphism
+
+  - ParcelTracker – Delivery Chain Management
+
+  - ExamProctor – Online Exam Review System
+
+
+20 Jan, 2026
+
+  - Scenario based Questions Submission 
+  - Java Generics and Submission 
+  - Collections Reading Material
+
+
+21 Jan, 2026:
+  Submission of Collection
+  
+  Solved Scenario based Problems 
+  
+  - EduResults – Rank Sheet Generator
+    
+  - SmartCheckout – Supermarket Billing Queue
+
+22 Jan, 2026:
+
+Revised few Topics and prepared few Questions 
+
+Solved few Scenario Based Problems  (parcelTracker , SmartCheckout)
+
+Java Streams Reading Material
+
+23 Jan, 2026:
+
+Submission of Java Stream Assignment
+
+Reading Material of Exceptional Handling
+
+24 - 25 Jan, 2026: Weekend (Staurday Sunday)
+
+26 Jan, 2026: Republic Day 
+
+27 jan, 2026:
+
+Reading Material of Regex and Junit was given to understand the concepts.
+
+A new Scenario problem "Lexical Twist" was given to solve.
+
+28 Jan, 2026:
+
+Regex and Junit Submission 
+
+Annotation and Reflection Reading Material
+
+29 Jan, 2026:
+
+Future Logistic Scenario Based 
+
+Submssion of Annotation & Reflection
+
+30 Jan, 2026
+
+Reading Material CSV DataHandling 
+
+31 Jan, 2026 (Saturday)
+
+JSON Data 
+
+1 Feb, 2026 (Sunday)
+
+2 Feb, 2026:
+
+Submission of Lambda Expressions
+
+3 Feb, 2026:
+
+Stream API and Collectors Reading Matetrial 
+
+4 Feb, 2026:
+
+Submission of Stream API and Collectors Assisment.
+
+Solved Scenario Based 
+
+5 Feb, 2026:
+
+Design Patterns 
+
+Solid Principles
+
+Solved Scenario Based Questions
+
+
+6 Feb, 2026:
+
+Multi Threading
+
+SonarQube
+
+Communication Workshop 
+
+7 feb, 2026:
+
+OceanFleet
+
+Collaborative Group
+
+Scenario Based Questions
+
+
+8 Feb, 2026: Sunday
+
+9 Feb, 2026:
+
+
+JDBC and Test Cases 
+
+Scenario Based Questions
+
+10 Feb, 2025:
+
+Practice Mock Test
+
+11 Feb, 2026:
+
+Solved and Submitted Assignment on JDBC
+
+12 Feb, 2026:
+
+Solved Scenaro Based Questions
+
+13 Feb, 2026:
+
+Power Skills session (Communication)
+
+14 Feb, 2026:
+
+Tomcat Servlet Spring Intro 
+
+15 Feb, 2026: Sunday
+
+16 Feb, 2026:
+
+Address Book Problem (Remaining Use cases)
+
+17 Feb, 2026:
+
+Employee Wage Computation Problem
+
+18 Feb, 2026:
+M1 Mock Exam
+
+19 Feb, 2026:
+
+Quantity Measurements App
+
+20 Feb, 2026:
+
+ Quantity Measurements App 
+ Scenario Based Questions
+ Power Session 
+
+21 Feb, 2026:
+  Performed UC2 and UC3 for the unit conversion App
+
+22 Feb, 2026:
+  Performed UC4 for the unit conversion App
+
+23 Feb, 2026
+  Performed UC5 for the unit conversion App
+
+
+ 
+
+
+
+
+
